@@ -40,7 +40,7 @@ The verifier checks the validity of the proof provided by the prover.
 ### Steps:
 
 1. Verify that:
-   - \( g^z \mod q = A^s \cdot Y1 \mod q \)
+   - \( g^z \mod q = A^s * Y1 \mod q \)
 
 2. Verify that:
-   - \( B^z \mod q = C^s \cdot Y2 \mod q \)
+   - \( B^z \mod q = C^s * Y2 \mod q \)
